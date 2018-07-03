@@ -1,9 +1,9 @@
 # YelpRecommendation
 Yelp Recommendation: Collaborative Filtering, XGboost, RBM, Auto-encoder
 
-The goal of our project is to build a recommendation system to predict a rating that a user will give to a restaurant. We use dataset from Yelp Dataset Challenge (https://www.yelp.com/dataset/challenge). We applied several methods, some of which we have learned in class, to make the prediction.
+I build a recommendation system to predict a rating that a user will give to a restaurant. I use dataset from Yelp Dataset Challenge (https://www.yelp.com/dataset/challenge). 
 
-The original dataset consists of 1,326,101 users, 174,567 business, and 5,261,669 reviews. Since our main focus for this project involves around suggestion of restaurants, we first reduce the dataset to have only business with "Restaurants" as one of their categories. We also filter out users who has less than 3 reviews. Then we randomly choose 5000 business. Our reduced dataset consists of 17,153 users, 4,733 business, and 90,251 reviews.
+The original dataset consists of 1,326,101 users, 174,567 business, and 5,261,669 reviews. 
 
 There are four parts:
 1. Data exploration
